@@ -22,6 +22,9 @@ $(function(){
 							}else if(data==2){
 								alert("用户名密码不符")
 							}
+						},
+						error:function(){
+							alert('注册失败')
 						}
 					})
 
