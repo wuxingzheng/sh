@@ -647,7 +647,7 @@ $(function(){
 						if(banner_index>=length){
 							banner_index = 0
 						}
-						console.log(banner_index)
+						//console.log(banner_index)
 						$("#banner .yuan span").eq(banner_index).css({"background":"#e6133c"}).stop(true).animate({"width":"30px"},500).siblings().css({"background":"#343434"}).stop(true).animate({"width":"15px"},500)
 						$("#banner ul li").eq(banner_index).fadeIn(500).siblings().fadeOut(500)
 					})
