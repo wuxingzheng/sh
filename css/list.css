@@ -186,7 +186,8 @@
 /*=============nav==================*/
 .nav{
 	height: 34px;
-	width: 100%;
+	width: 1100px;
+	margin: 0 auto;
 	border-bottom: 1px solid #707070;
 	background: #333;
 }
@@ -384,9 +385,10 @@
 /*========service================*/
 .service{
 	height: 196px;
-	width: 100%;
+	width: 1263px;
 	background: #f4f4f4;
 	padding: 24px 0;
+	margin: 0 auto;
 }
 .service .box{
 	
