@@ -102,8 +102,9 @@
 /*======header2========*/
 .header2{
 	height: 96px;
-	width: 100%;
+	width: 1100px;
 	background: #fff;
+	margin: 0 auto;
 }
 .header2 .logo{
 	width: 150px;
