@@ -1,0 +1,605 @@
+/*==========header==============*/
+.header{
+	position: relative;
+	width: 100%;
+	height: 29px;
+	border-bottom: 1px solid #ddd;
+	background: #f7f7f7;
+	margin-top: 2px;
+	color: #666;
+}
+.header .left_ul{
+	width: 229px;
+	height: 54px;
+	position: absolute;
+	left: 40px;
+	top: 30px;
+	border: 1px solid #ddd;
+	background: #FFF;
+	padding-left:17px ;
+	padding-top:8px ;
+	display: none;
+	
+}
+.header .left_ul li{
+	width: 100px;
+	background: #fff;
+	line-height: 24px;
+	cursor: pointer;
+	text-align: justify;
+	
+	
+}
+.header .left{
+	position: absolute;
+	height: 28px;
+	padding: 0 10px;
+	left: 40px;
+	top: 2px;
+	cursor: pointer;
+	
+	z-index: 2;
+}
+.header .left_bar .left1{	
+	background: #fff;
+	border:1px solid #ddd ;
+	border-bottom: 0;
+}
+.header .left i{
+	display: inline-block;
+	width: 7px;
+	height: 4px;
+	margin-left: 8px;
+}
+.header .left .i1{
+	background: url(../img/index/headeri1.jpg) 0 -40px;
+}
+.header .left .i2{
+	background: url(../img/index/headerup.jpg);
+}	
+.header ul.right{
+	margin-left: 540px;
+	height: 29px;
+}
+.header ul.right li{
+	cursor: pointer;
+	height: 29px;
+	line-height: 29px;
+}
+.header ul.right li a{
+	color: #666;
+	padding: 0 10px;	
+	border-right: 1px solid #E5E5E5;
+}
+.header ul.right li.last a{
+	border: 0;
+	padding-right: 0;
+}
+.header ul.right li i{
+	display: inline-block;
+	width: 7px;
+	height: 4px;
+	margin-left: 8px;
+/*background: url(../img/index/headerup.jpg);	*/
+	
+}
+.header ul.right li.first a.lu{
+	padding-left:5px ;
+}
+.header ul.right li.first i{
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	margin-top: 8px;
+	background: url(../img/index/header_loginbg.jpg) no-repeat 0 -15px;	
+}
+.header ul.right li .i1{
+	background: url(../img/index/headeri1.jpg) 0 -40px;
+}
+.header ul.right li .i2{
+	background: url(../img/index/headerup.jpg);
+}
+
+/*===============header2=====================*/
+.header2{
+	height: 100px;
+	border-bottom: 1px solid #ddd;
+}
+.header2 .logo{
+	width: 151px;
+	height: 60px;
+	margin-top: 15px;
+	margin-left: 137px;
+	
+}
+.header2 .buy{
+	width: 170px;
+	height: 44px;
+	margin-top: 30px;
+	margin-left: 30px;
+	line-height: 44px;
+	font-size: 22px;
+	color: #666;
+}
+/*==================cart_title===============================*/
+.cart_title{
+	width: 990px;
+	margin: 0 auto;
+	height: 51px;
+	border-bottom: 1px solid #ccc;
+}
+
+.cart_title .div1{
+	width: 88px;
+	height: 32px;
+	padding: 0 6px;
+	margin-top: 18px;
+	line-height: 32px;
+	font-size: 16px;
+	color: #333;
+	font-weight: 700;
+	border-bottom: 2px solid #333;
+}
+
+.cart_title .div1 span.shu{
+	font-size: 14px;
+	margin-left: 4px;
+	color: #e6133c;
+}
+.cart_title div.right{
+	color: #333;
+	height: 51px;
+	line-height: 51px;
+}
+.cart_title div.right span.hui{
+	margin-right: 17px;
+}
+.cart_title div.right span.you{
+	color: #999;
+}
+.cart_title div.right span.num{
+	color: #D62233;
+	font-size: 16px;
+	font-weight: 700;
+	margin-right: 17px;
+}
+
+.cart_title div.right span.jie{
+	width: 72px;
+	height: 26px;
+	margin-top: 13px;
+	line-height: 26px;
+	text-align: center;
+	color: #fff;
+	background: #e6133c;
+	cursor: pointer;
+}
+
+/*===========cart_head==================*/
+.cart_head{
+	width: 990px;
+	margin: 0 auto;
+	height: 44px;
+	border-bottom: 1px solid #ccc;
+}
+.cart_head .all{
+	width: 50px;
+	height: 44px;
+	margin-left: 15px;
+	line-height: 44px;
+}
+.cart_head .all i{
+	cursor: pointer;
+	margin-top: 17px;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #ccc;	
+}
+.cart_head .all i.quanbu{
+	background:  #D62233 url(../img/shopingCart/dagou.jpg) no-repeat;
+	border: 1px solid #D62233;
+	color: white;
+}
+.cart_head .all span{
+	margin-left: 10px;
+}
+
+.cart_head .msg{
+	width: 390px;
+	height: 44px;
+	margin-left: 80px;
+	line-height: 44px;
+}
+.cart_head .single{
+	width: 138px;
+	height: 44px;
+	line-height: 44px;
+}
+.cart_head .num{
+	width: 102px;
+	height: 44px;
+	line-height: 44px;
+}
+.cart_head .moy{
+	width: 132px;
+	height: 44px;
+	line-height: 44px;
+}
+.cart_head .oper{
+	width: 64px;
+	height: 44px;
+	line-height: 44px;
+}
+/*==============cart_table=======================*/
+.cart_table{
+	width: 990px;
+	height: 110px;
+	border-bottom: 1px solid #ccc;
+	background: #fffaf1;
+	margin: 0 auto;
+}
+.cart_table .xuan1{
+	width: 35px;
+	height: 80px;
+	margin-left: 5px;
+	margin-top: 20px;
+}
+.cart_table .xuan1 i{
+	cursor: pointer;
+	display: block;
+	width: 10px;
+	margin-left: 10px;
+	height: 10px;
+	border: 1px solid #ccc;	
+	
+}
+.cart_table .xuan1 i.xuan{
+	border: 1px solid #D62233;
+	background:  #D62233 url(../img/shopingCart/dagou.jpg) no-repeat;
+	color: white;
+}
+.cart_table .tu{
+	width: 300px;
+	height: 80px;
+	margin-top: 15px;
+}
+.cart_table .tu a{
+	width: 78px;
+	height: 78px;
+	border: 1px solid #ccc;
+	margin-right:10px ;
+}
+.cart_table .tu a img{
+	width: 78px;
+	height: 78px;
+}
+.cart_table .box1{
+	width: 120px;
+	height: 80px;
+	margin-top: 15px;
+	margin-left: 195px;
+}
+.cart_table .num_box{
+	width: 80px;
+	height: 60px;
+	margin-top: 15px;
+}
+.cart_table .num_box input{
+	width: 42px;
+	height: 24px;
+	border: 1px solid #aaa;
+	outline: none;
+	text-align: center;
+	line-height: 24px;
+}
+.cart_table .num_box span{
+	width: 16px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	border: 1px solid #F0F0F0;
+	background: #F0F0F0;
+}
+.cart_table .num_box span.jia{
+	cursor: pointer;
+}
+.cart_table .num_box span.jia:hover{
+	border: 1px solid black;
+}
+.cart_table .num_box span.jian{
+	cursor: pointer;
+}
+.cart_table .num_box span.jian:hover{
+	border: 1px solid black;
+}
+.cart_table .sum{
+	width: 100px;
+	height: 80px;
+	margin-top:15px;
+	margin-left: 40px;
+}
+
+.cart_table .last{
+	width: 62px;
+	height: 80px;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+.cart_table .last a.cang{
+	color: #333;
+}
+.cart_table .last a.del{
+	color: #999;
+	cursor: pointer;
+}
+.cart_table .last a:hover{
+	color: red;
+}
+/*===========cart_bottom==================*/
+.cart_bottom{
+	width: 990px;
+	margin: 0 auto;
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+	background: #f3f3f3;
+}
+.cart_bottom a{
+	color: #666;
+}
+.cart_bottom a:hover{
+	color: red;
+}
+.cart_bottom .all{
+	width: 40px;
+	height: 50px;
+	margin:0 15px;
+	line-height: 50px;
+}
+.cart_bottom .all i{
+	cursor: pointer;
+	margin-top: 19px;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #ccc;
+}
+.cart_bottom .all i.quanbu{
+	border: 1px solid #D62233;
+	background:  #D62233 url(../img/shopingCart/dagou.jpg) no-repeat;
+	color: white;
+}
+.cart_bottom .all span{
+	margin-left: 4px;
+}
+.cart_bottom .del{
+	width: 40px;
+	height: 22px;
+	margin-top: 13px;
+	margin-right: 20px;
+	line-height: 22px;
+}
+.cart_bottom .del i{
+	width: 16px;
+	height: 16px;
+	margin-top: 4px;
+	background: url(../img/shopingCart/bg.jpg) no-repeat 0 -133px;
+}
+.cart_bottom .clear{
+	width: 72px;
+	height: 22px;
+	margin-top: 13px;
+	margin-right: 20px;
+	line-height: 22px;
+}
+.cart_bottom .move{
+	width: 60px;
+	height: 22px;
+	line-height: 22px;
+	margin-top: 13px;
+	margin-right: 20px;
+}
+.cart_bottom .already{
+	width: 94px;
+	height: 24px;
+	line-height: 24px;
+	margin-top: 13px;
+	margin-left: 195px;
+}
+.cart_bottom .already a{
+	color: #333;
+}
+.cart_bottom .already a span{
+	color: red;
+}
+.cart_bottom .money{
+	padding-left: 50px;
+	width: 220px;
+	height: 42px;
+	margin-top: 4px;
+	margin-right: 10px;
+}
+.cart_bottom .money .up{
+	width: 270px;
+	height: 24px;
+}
+.cart_bottom .money .up .cash{
+	color: #d62233;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: bold;
+}
+.cart_bottom .money .down{
+	margin-left: 140px;
+	width: 270px;
+	height: 18px;
+	
+}
+.cart_bottom .money .down span.you{
+	color: #999;
+	margin-right: 5px;
+}
+.cart_bottom .jiesuan{
+	width: 117px;
+	height: 50px;
+	background: #d62233;
+	color: white;
+	font-weight: 400;
+}
+.cart_bottom .jiesuan a{
+	display: block;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+.cart_bottom .jiesuan a:hover{
+	text-decoration: none;
+	background: #B62222;
+}
+
+/*========service================*/
+.service{
+	margin-top: 30px;
+	height: 196px;
+	width: 100%;
+	background: #f4f4f4;
+	padding: 24px 0;
+}
+.service .box{
+	
+	margin-left: 80px;
+}
+.service div.l{
+	height: 200px;
+	width: 200px;
+	margin: 0 13px;
+}
+
+.service  i{
+	float: left;
+	width: 40px;
+	height: 40px;
+}
+.service  .list_1 i{
+	background: url(../img/index_service/1.jpg) no-repeat;
+}
+.service  .list_2 i{
+	background: url(../img/index_service/2.jpg) no-repeat;
+}
+.service  .list_3 i{
+	background: url(../img/index_service/3.jpg) no-repeat;
+}
+.service  .list_4 i{
+	background: url(../img/index_service/4.jpg) no-repeat;
+}
+.service  .list_5 i{
+	background: url(../img/index_service/5.jpg) no-repeat;
+}
+
+.service .l ul{
+	margin-left: 55px;
+}
+.service .l ul li{
+	line-height: 26px;
+}
+.service .l ul li a{
+	font-size: 14px;
+	color: #555;
+}
+.service .l ul li a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.service .title span{
+	font-size: 16px;
+}
+.service .title span{
+	padding: 0 15px;
+	color: #000;
+}
+.service .title{
+	height: 40px;
+	line-height: 40px;
+}
+
+/*************bottom***********************/
+.footer{
+	width: 100%;
+	background: #fff;
+	height: 125px;
+	padding-top: 20px;
+	border-bottom: 1px solid #d4d6d9;
+}
+
+/*======footer======*/
+
+.footer .p1 a.last,.footer .p2 span.last{
+	border-right: 0;
+}
+.footer .p1{
+	height: 12px;
+	width: 100%;
+	text-align: center;
+}
+.footer .p1 a{
+	padding: 0 13px;
+	color: #003333;
+	border-right: 1px solid #ccc;
+}
+.footer .p1 a:hover{
+	color: red;
+	text-decoration: none;
+}
+.footer .p2{
+	height: 12px;
+	width: 100%;
+	text-align: center;
+	margin-top: 12px;
+	font-size: 12px;
+
+}
+.footer .p2 span{
+	color: #ccc;
+	padding: 0 10px;
+	border-right: 1px solid #ccc;
+}
+
+.footer .p3{
+	height: 12px;
+	width: 100%;
+	text-align: center;
+	margin-top: 12px;
+}
+.footer .p3 span{
+	color: #999;
+	padding: 0 13px;
+}
+.footer .p4{
+	height: 12px;
+	margin-top: 16px;
+	position: relative;
+	left: 37%;
+}
+.footer .p4 .first{
+	margin-right: 22px;
+}
+.footer .p4 span{
+	float: left;
+	margin-left: 14px;
+	color: #999;
+	padding: 0 13px;
+}
+.footer .p4 .first i{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-right: 14px;
+	background: url(../img/index/footerbg1.jpg) no-repeat;
+}
+.footer .p4 .last i{
+	margin-right: 14px;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url(../img/index/footerbg2.jpg) no-repeat;
+}
+

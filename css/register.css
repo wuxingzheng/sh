@@ -1,0 +1,282 @@
+@charset "utf-8";
+/* CSS Document */
+.w{
+	width:950px;
+	margin-left:165px ;
+}
+
+/*======header======*/
+.header{
+	height: 110px;
+	background: #;
+}
+.header a{
+	width: 159px;
+	height: 52px;
+	margin-top: 28px;
+	background: url(../img/zhuce/logo.jpg) no-repeat center center;
+}
+.header span{
+	height: 45px;
+	border-left: 1px solid #ddd;
+	margin-top: 33px;
+	font-size: 23px;
+	color: black;
+	padding-left: 30px;
+}
+/*======welcome======*/
+.welcome{
+	width: 948px;
+	height: 50px;
+	background: #fff;
+	border: 1px solid #e1dfda;
+}
+.welcome p.l{
+	height: 50px;
+	line-height: 50px;
+	font-size: 15px;
+	color: #ff002a;
+	padding-left: 20px;
+}
+.welcome p.r{
+	height: 50px;
+	line-height: 50px;
+	font-size: 12px;
+	color: #63625d;
+	padding-right: 20px;
+}
+.welcome p.r a{
+	color: #0088cc;
+	text-decoration: none;
+}
+.welcome p.r a:hover{
+	color: #0088CC;
+	text-decoration: none
+}
+/*======info======*/
+.info{
+	height:520px ;
+	background:#fff ;
+	border: 1px solid #e1dfda;
+	padding-top:60px ;
+	border-top: 0;
+	
+}
+.info .yonghu{
+	margin-left: 256px;
+}
+
+.info .mima{
+	margin-left: 242px;
+	margin-top: 20px;
+}
+.info .queren{
+	margin-left: 242px;
+	margin-top: 20px;
+}
+.info .phone{
+	margin-left: 256px;
+	margin-top: 20px;
+}
+.info .yanzheng{
+	margin-left: 268px;
+	margin-top: 20px;
+}
+.info .message{
+	margin-left: 228px;
+	margin-top: 20px;
+}
+.info .email{
+	margin-left: 253px;
+	margin-top: 20px;
+}
+.info .xieyi{
+	margin-left: 328px;
+	margin-top: 17px;
+}
+.info .xieyi input{
+	display: inline-block;
+	height: 13px;
+	background: red;
+	position: relative;
+	top: 2px;
+	
+}
+.info .xieyi a{
+	color: #0088ca;
+	padding: 0 10px;
+}
+.info .finish{
+	margin-left: 328px;
+	margin-top: 17px;
+	width: 300px;
+	height: 36px;
+	background: #e6133c;
+	line-height: 35px;
+	font-size: 16px;
+	color: #f8f0ff;
+	text-align: center;
+	cursor: pointer;
+}
+
+.info span.xin{
+	color: #df3d36;
+	font-size: 16px;
+}
+.info p{
+	display: inline-block;
+	font-size: 14px;
+	color: #333;
+}
+.info .name{
+	height: 34px;
+	width: 298px;
+	display: inline-block;
+	border: 1px solid #ccc;
+}
+.info .name .span1{
+	margin-top: 9px;
+	margin-left: 12px;
+	display: inline-block;
+	width: 15px;
+	height: 16px;
+	
+}
+.info .name .bg7{
+	background: url(../img/zhuce/register.png) 0 0px;
+}
+.info .name .bg1{
+	background: url(../img/zhuce/register.png) 0 -60px;
+}
+.info .name .bg2{
+	background: url(../img/zhuce/register.png) 0 -113px;
+}
+.info .name .bg3{
+	background: url(../img/zhuce/register.png) 0 -187px;
+}
+.info .name .bg4{
+	background: url(../img/zhuce/register.png) 0 -261px;
+}
+.info .name .bg5{
+	background: url(../img/zhuce/register.png) 0 -297px;
+}
+.info .name .bg6{
+	background: url(../img/zhuce/register.png) 0 -297px;/*472*/
+}
+.info .name input.inp{
+	width: 250px;
+	height: 20px;
+	border: 0;
+	position: relative;
+	top:-5px;
+	left: 5px;
+	outline: none;
+}
+.info .name_test{
+	display: none;
+}
+.info .name_test .error{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	color: red;
+	margin: 0 5px;
+	background: url(../img/zhuce/2.png) no-repeat;
+}
+.info .yanzheng .suiji{
+	font-size: 20px;
+	position: relative;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #ccc;
+	display: inline-block;
+	margin: 0 5px;
+	width: 70px;
+}
+.info .yanzheng  .name_test{
+	position: relative;
+	top: 10px;
+	line-height: 34px;
+	height: 34px;
+	
+}
+.info .yanzheng  .name_test .pan{
+	display: none;
+}
+.info .yanzheng  .name_test .error{
+	position: relative;
+	top: 5px;
+	margin: 5px 7px;
+}.info .yanzheng  .name_test p.l{
+	position: relative;
+	top: 1px;
+}
+.info  .success{
+	width: 16px;
+	height: 16px;
+	display: none;
+	color: red;
+	margin: 0 5px;
+	background: url(../img/zhuce/success.jpg) no-repeat;
+}
+.info .name_test p{
+	position: relative;
+	top:-3px;
+}
+/*======footer======*/
+.footer{
+	height:137px ;
+	border-top: 1px solid #e1dfda;
+	background:url(../img/zhuce/login-bottom-bg.png) repeat-x ;
+}
+.footer .p1 a.last,.footer .p2 span.last,.footer .p3 span.last{
+	border-right: 0;
+}
+.footer .p1{
+	height: 12px;
+	width: 100%;
+	text-align: center;
+	margin-top: 35px;
+}
+.footer .p1 a{
+	padding: 0 13px;
+	color: #003333;
+	border-right: 1px solid #ccc;
+}
+.footer .p1 a:hover{
+	color: red;
+	text-decoration: none;
+}
+.footer .p2{
+	height: 12px;
+	width: 100%;
+	text-align: center;
+	margin-top: 12px;
+	font-size: 12px;
+
+}
+.footer .p2 span{
+	color: #999;
+	padding: 0 13px;
+	border-right: 1px solid #ccc;
+}
+
+.footer .p3{
+	height: 12px;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+.footer .p3 span{
+	color: #999;
+	padding: 0 13px;
+	border-right: 1px solid #ccc;
+}
+.footer .p4{
+	margin-top: 8px;
+}
+.footer .p4 span.first{
+	padding-left: 0;
+}
+

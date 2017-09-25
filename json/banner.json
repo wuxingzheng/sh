@@ -1,0 +1,12 @@
+{
+	"id":0,"code":200,"data":[
+		{"img":"img/index/ban1.jpg","bg":"#f1ede4"},
+		{"img":"img/index/ban2.jpg","bg":"#8a18f5"},
+		{"img":"img/index/ban3.jpg","bg":"#ffd21f"},
+		{"img":"img/index/ban4.jpg","bg":"#211f22"},
+		{"img":"img/index/ban5.jpg","bg":"#fff301"},
+		{"img":"img/index/ban6.jpg","bg":"#11182b"},
+		{"img":"img/index/ban7.jpg","bg":"#7de2ff"},
+		{"img":"img/index/ban8.jpg","bg":"#fffdf1"}	
+	]
+}

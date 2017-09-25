@@ -1,0 +1,13 @@
+{
+	"id":0,"code":200,"data":[
+		{"img":"img/index_nav/1.jpg","spantxt":"充话费"},
+		{"img":"img/index_nav/2.jpg","spantxt":"游戏"},
+		{"img":"img/index_nav/3.jpg","spantxt":"固话"},
+		{"img":"img/index_nav/4.jpg","spantxt":"电费"},
+		{"img":"img/index_nav/5.jpg","spantxt":"水费"},
+		{"img":"img/index_nav/6.jpg","spantxt":"燃气费"},
+		{"img":"img/index_nav/7.jpg","spantxt":"冲流量"},
+		{"img":"img/index_nav/8.jpg","spantxt":"加油卡"},
+		{"img":"img/index_nav/9.jpg","spantxt":"礼品卡"}	
+	]
+}

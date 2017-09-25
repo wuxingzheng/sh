@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+/*===============重置样式=========*/
+body,div,input,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,a,img,span,i,p{
+	margin: 0;
+	padding: 0;
+	}
+img{
+	display: block;
+	border: 0;
+}
+ol,ul{
+	list-style: none;
+}
+body{
+	font-style: normal;
+	font: 12px/1.5 "微软雅黑";
+	color: #3E3E3E;
+}
+a{
+	text-decoration: none;
+	color: #909090;
+}
+a:hover{
+	text-decoration: underline;
+	color: #0066FF;
+}
+/*=====公共样式=========*/
+.l{
+	float: left;
+}
+.r{
+	float: right;
+}
